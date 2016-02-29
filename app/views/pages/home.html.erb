@@ -1,24 +1,24 @@
 <title>AC Konig and Shiras family blog</title>
 
-<div class="thumnails">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4"><%= image_tag 'profile_shira.png' , :size => '200' %></div>
-      <div class="col-md-4"><%= image_tag 'profile_ac.png', :size => '200' %></div>
-      <div class="col-md-4"><%= image_tag 'profile_pinky.png', :size => '200'  %></div>
+<div class="container center">
+  <div class="row">
+    <div class="imgac">
+      <ul>
+        <li><div><%= image_tag 'profile_shira.png' , :size => '200' %></div></li>
+        <li><div><%= image_tag 'profile_ac.png', :size => '200' %></div></li>
+        <li><div><%= image_tag 'profile_pinky.png', :size => '200'  %></div></li>
+      </ul>
     </div>
   </div>
 </div>
-<p>
-  <div class="center jumbotron">
+<div class="container center">
+  <div class="jumbotron">
     <%= link_to "Sign up to our family blog", "#",class: "btn btn-warning btn-lg btn-xl" %>
   </div>
-
-</p>
+</div>
 
 <p>
   <%= link_to 'Alpha blog', articles_path %> |
-  <%= link_to 'About', about_path %>
 </p>
 
 

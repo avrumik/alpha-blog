@@ -20,6 +20,26 @@ $navbar-default-bg: #D71921;
   text-align: center;
 }
 
+.imgac{
+  width: 875px;
+
+}
+.imgac li {
+  width: 33.3%;
+  float: left;
+  list-style-type: none;
+}
+
+.imgac li div{
+
+  border: 0 none;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
 .jumbotron {
   background-image: asset-url("chess_background");
   background-size: cover;
